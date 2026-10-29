@@ -23,3 +23,12 @@
    - Use a clear commit message that describes the change.
 
 @AGENTS.md
+
+# Hackathon Context
+
+This repo is for a time-boxed hackathon. The problem statement will be given at the start.
+
+- **Ship a working demo first.** Prefer the fastest path to an end-to-end working flow; polish after.
+- **Plan before building.** When the problem statement arrives, agree on scope, stack, and a short milestone list before writing code. Record key decisions in `docs/adr/`.
+- **Keep secrets and large files out of git.** API keys go in `.env` (gitignored) with a committed `.env.example`; videos and model weights stay local (see `.gitignore`).
+- **Keep the README current** with setup and run instructions so judges and teammates can run the project.
